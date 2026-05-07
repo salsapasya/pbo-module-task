@@ -20,44 +20,44 @@ class Program
         sekolah.TambahOrang(siswasd1);
 
         // tampilkan semua orang 
-        //sekolah.DaftarOrang();
+        sekolah.DaftarOrang();
 
         // demonstrasi polymorphism
-        //List<Orang> list = new List<Orang>()
-        //{
-        //    siswasma1,
-        //    siswasd1,
-        //    guru1,
-        //    guru2
-        //};
+        List<Orang> list = new List<Orang>()
+        {
+            siswasma1,
+            siswasd1,
+            guru1,
+            guru2
+        };
 
-        //foreach (Orang o in list)
-        //{
-        //    o.Aktivitas(); 
-        //}
+        foreach (Orang o in list)
+        {
+            o.Aktivitas();
+        }
 
         // panggil method khusus
-        //guru1.MengajarHitung();
-        //guru2.MengajarBahasa();
-        //siswasma1.UjianNasional();
-        //siswasd1.Main();
+        guru1.MengajarHitung();
+        guru2.MengajarBahasa();
+        siswasma1.UjianNasional();
+        siswasd1.Main();
 
         // soal nomer 1
-        //Console.WriteLine("Soal nomer 1:");
-        //guru1.Aktivitas();
-        //siswasma1.Aktivitas();
+        Console.WriteLine("Soal nomer 1:");
+        guru1.Aktivitas();
+        siswasma1.Aktivitas();
 
         //soal nomer 2
-        //Console.WriteLine("\nSoal nomer 2:");
-        //guru1.MengajarHitung();
+        Console.WriteLine("\nSoal nomer 2:");
+        guru1.MengajarHitung();
 
         //soal nomer 3
-        //Console.WriteLine("\nSoal nomer 3:");
-        //guru1.InfoOrang();
+        Console.WriteLine("\nSoal nomer 3:");
+        guru1.InfoOrang();
 
         //soal nomer 4
-        //Console.WriteLine("\nSoal nomer 4:");
-        //siswasma1.UjianNasional();
+        Console.WriteLine("\nSoal nomer 4:");
+        siswasma1.UjianNasional();
 
         //soal nomer 5
         Console.WriteLine("\nSoal nomer 5:");
